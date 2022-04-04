@@ -1,0 +1,11 @@
+debug/draw.o
+debug/draw_withQT.o
+debug/edges.o
+debug/errors.o
+debug/main.o
+debug/main_task.o
+debug/my_figure.o
+debug/my_math.o
+debug/my_type.o
+debug/widget.o
+debug/moc_widget.o
