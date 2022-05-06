@@ -1,0 +1,11 @@
+release/draw.o
+release/draw_withQT.o
+release/edges.o
+release/errors.o
+release/main.o
+release/main_task.o
+release/my_figure.o
+release/my_math.o
+release/my_type.o
+release/widget.o
+release/moc_widget.o
