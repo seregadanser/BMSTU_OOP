@@ -5,9 +5,9 @@
 template<typename T>
 void Vector<T>::CheckSise(int len1, int len2, int line) const
 {
-    time_t cur_time = time(NULL);
+    /*time_t cur_time = time(NULL);
     if (len1 != len2)
-        throw DifferLen(ctime(&cur_time), __FILE__, line, "CheckSize");
+        throw DifferLen(ctime(&cur_time), __FILE__, line, "CheckSize");*/
 }
 
 template<typename T>

@@ -7,8 +7,8 @@ template<typename T>
 void ConstIterator<T>::CheckPtr(int line) const
 {
     time_t cur_time = time(NULL);
-    if (index >= elem_count || index < 0)
-        throw IndexError(ctime(&cur_time), __FILE__, line, "CheckPtr");
+    /*if (index >= elem_count || index < 0)
+        throw IndexError(ctime(&cur_time), __FILE__, line, "CheckPtr");*/
 
     if (ptr.expired())
         throw NoPtr(ctime(&cur_time), __FILE__, line, "CheckPtr");
